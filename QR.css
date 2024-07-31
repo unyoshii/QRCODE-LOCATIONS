@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&family=Playwrite+PE:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('anicons/bluebackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.header-bar {
+    background-color: #FCEC09;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.Logo img {
+    height: 60px; 
+}
+
+.Logo p {
+    margin: 0px 10px;
+}
+
+.header-bar p {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+
+.pictures {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 0px;
+}
+
+.pictures img {
+    height: 35px;
+    margin-left: 15px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.locations {
+    background-color: darkblue;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-title p {
+    color: rgb(255, 255, 0);
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.locations-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location-entry {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.location-entry:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.icon img {
+    height: 20px;
+}
+
+.location-text a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    color: #fff; /* Default color for the first 4 locations */
+}
+
+.location-text a:hover {
+    color: rgb(221, 46, 46);
+}
+
+/* Color for locations 5-7 */
+
+
+/* Color for locations 8-10 */
+.location-entry:nth-of-type(8) .location-text a,
+.location-entry:nth-of-type(9) .location-text a,
+.location-entry:nth-of-type(10) .location-text a {
+    color: pink;
+}
+
+/* Color for locations 11-13 */
+.location-entry:nth-of-type(11) .location-text a,
+.location-entry:nth-of-type(12) .location-text a,
+.location-entry:nth-of-type(13) .location-text a {
+    color: lightblue;
+}
+
+/* Adjust the background for smaller screens */
+
+
+
+
+.parish {
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.location {
+    flex: 1 1 30%;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.location p {
+    color: #1e1e1e;
+    line-height: 50px;
+    font-family: 'Playwrite IE', Arial;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.location:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
