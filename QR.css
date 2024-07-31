@@ -42,7 +42,7 @@ body {
 
 .header-bar p {
     font-size: 2rem;
-    color: #fff;
+    color: #2F2F81;
     font-weight: 600;
     margin: 0;
 }
@@ -118,7 +118,7 @@ body {
 }
 
 .location-text a:hover {
-    color: rgb(221, 46, 46);
+    color: #E30B7B;
 }
 
 /* Color for locations 5-7 */
@@ -173,5 +173,7 @@ body {
 .location:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+
 
 
