@@ -15,7 +15,6 @@ body {
     background-repeat: no-repeat;
 }
 
-
 .header-bar {
     background-color: #FCEC09;
     height: 60px;
@@ -138,11 +137,6 @@ body {
     color: lightblue;
 }
 
-/* Adjust the background for smaller screens */
-
-
-
-
 .parish {
     background-color: yellow;
     display: flex;
@@ -172,4 +166,26 @@ body {
 
 .location:hover {
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer {
+    background-color: #2F2F81;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    height: 30px;
+    width: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
 }
