@@ -122,7 +122,6 @@ body {
 
 /* Color for locations 5-7 */
 
-
 /* Color for locations 8-10 */
 .location-entry:nth-of-type(8) .location-text a,
 .location-entry:nth-of-type(9) .location-text a,
@@ -135,6 +134,16 @@ body {
 .location-entry:nth-of-type(12) .location-text a,
 .location-entry:nth-of-type(13) .location-text a {
     color: lightblue;
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+}
+
+.phone-number .separator {
+    margin: 0 5px;
+    color: #fff;
 }
 
 .parish {
